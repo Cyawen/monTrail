@@ -1,0 +1,19 @@
+site_trail:
+    resource: "@SiteTrailBundle/Resources/config/routing.yml"
+    prefix:   /
+
+calendrier:
+    path: /calendrier
+    defaults: { _controller: SiteTrailBundle:Calendrier:index }
+
+calendrierForm:
+    path: /calendrierForm
+    defaults: { _controller: SiteTrailBundle:Calendrier:afficherForm }
+    
+detailEvenement:
+    path: /detailEvenement
+    defaults: { _controller: SiteTrailBundle:Calendrier:afficherDetailEvenement }
+
+ics:
+    path: /ics
+    defaults: { _controller: SiteTrailBundle:Ics:index }

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Resources/js/menu.js</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Resources/css/menu.css</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Resources/js/calendrier.js</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Entity/Categorie.php</file>
+            <file>file:/C:/wamp/www/Trail/app/config/config.yml</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Resources/config/doctrine/metadata/orm/Evenement.orm.xml</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Entity/Icone.php</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Entity/Role.php</file>
+            <file>file:/C:/wamp/www/Trail/app/config/routing_dev.yml</file>
+            <file>file:/C:/wamp/www/Trail/app/config/routing.yml</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Entity/Evenement.php</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Entity/Entrainement.php</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Resources/config/routing.yml</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Resources/views/Home/index.html.twig</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Resources/config/services.yml</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Entity/User.php</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/WebServices/AuthenticationHandler.php</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Entity/Coordonnees.php</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Resources/views/layout.html.twig</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Controller/IcsController.php</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Entity/SortieDecouverte.php</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Entity/EvenementDivers.php</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Entity/Programme.php</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Entity/LieuRendezVous.php</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Entity/Gpx.php</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Controller/CalendrierController.php</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Controller/HomeController.php</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Entity/EntrainementPersonnel.php</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Resources/css/fullcalendar.css</file>
+            <file>file:/C:/wamp/www/Trail/app/config/parameters.yml</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Resources/views/Calendrier/detailEvenement.html.twig</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Resources/views/Calendrier/calendrier.html.twig</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Entity/Ics.php</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Resources/views/Calendrier/ajouterEventForm.html.twig</file>
+            <file>file:/C:/wamp/www/Trail/src/Site/TrailBundle/Resources/css/calendrier.css</file>
+            <file>file:/C:/wamp/www/Trail/app/config/config_dev.yml</file>
+        </group>
+    </open-files>
+</project-private>
