@@ -149,7 +149,7 @@ class CalendrierController extends Controller
     }
     
     public function indexAction()
-    {
+    {        
         if($this->getUser())
         {
             $idUser = $this->getUser()->getId();

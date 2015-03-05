@@ -9,35 +9,24 @@ use Symfony\Component\HttpFoundation\Response;
 
 class IcsController extends Controller
 {
-    public function indexAction()
-    {
-        /*$array = array(
-                Array(
-                    "id" => "01",    
-                    "debut" => "2015-02-13 10:30:00",
-                    "fin" => "2015-02-13 12:30:00",
-                    "lieu" => "MonLieu1",
-                    "titre" => "Titre1",
-                    "description" => "MaDesc1"
-                ),
-                Array(
-                    "id" => "02",    
-                    "debut" => "2015-02-13 13:30:00",
-                    "fin" => "2015-02-13 15:30:00",
-                    "lieu" => "MonLieu2",
-                    "titre" => "Titre2",
-                    "description" => "MaDesc2"
-                )
-            );*/
-        
-        if($this->getUser())
+    public function indexAction($id)
+    {        
+        //Cas où on clique sur le lien télécharger le calendrier dans le site
+        if($id == "default")
         {
-            $idUser = $this->getUser()->getId();
+            if($this->getUser())
+            {
+                $idUser = $this->getUser()->getId();
+            }
+            else
+            {
+                $idUser = 0;
+            }
         }
-        else
+        else //Cas où on veut récupérer le calendrier "à l'exterieur" du site
         {
-            $idUser = 0;
-        }
+            $idUser = $id;
+        }        
         
         $dateDebut = new \DateTime('now');
         date_time_set($dateDebut, 0, 0);
@@ -47,24 +36,9 @@ class IcsController extends Controller
         
         $mesEvenements = CalendrierController::getAllEventFrom($idUser, $this->getDoctrine()->getManager(), $dateDebut, $dateFin);
 
-        $ics = new Ics($mesEvenements);
-        
-        //date_default_timezone_set("UTC");
-
-        //return new Response(var_dump(date("Y-m-d H:i:s", strtotime("2015-02-20 09:30"))));
-        //return new Response(var_dump(date("Y-m-d H:i:s", mktime(9, 30, 0, 2, 20, 2015))));
-        
-        //echo var_dump(date("Ymd\THis\Z",strtotime("2015-02-20 09:30")));
-        //return new Response(var_dump(date("Ymd\THis\Z", mktime(9, 30, 0, 2, 20, 2015))));
-       
-        
-        //echo "DTSTART:20150213T083000Z" . "<br/>";
-        //echo "DTSTART:".date("Ymd\THis\Z", strtotime("2015-02-13 08:30:00"." UTC")) . "<br/>";
-       
-        
+        $ics = new Ics($mesEvenements);        
         
         return new Response($ics->show());
-        
-        //return new Response(var_dump(date("Ymd\THis\ZT",strtotime("2015-02-20 09:30:00 UTC"))));
+        //return new Response("e");
     }
 }
