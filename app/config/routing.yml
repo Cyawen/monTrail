@@ -15,5 +15,5 @@ detailEvenement:
     defaults: { _controller: SiteTrailBundle:Calendrier:afficherDetailEvenement }
 
 ics:
-    path: /ics
-    defaults: { _controller: SiteTrailBundle:Ics:index }
+    path: /ics/{id}
+    defaults: { _controller: SiteTrailBundle:Ics:index, id: default }
